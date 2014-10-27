@@ -1,0 +1,87 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/layoutInternetGPRS"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textoEtiquetaGPRS"
+            android:id="@+id/textView"
+            android:layout_weight="1"
+            style="@style/estilo_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textoNoConectado"
+            android:id="@+id/tConectadoGPRS"
+            android:layout_weight="1"
+            style="@style/estilo_no_conectado" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutInternetWifi"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textoEtiquetaWifi"
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            style="@style/estilo_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textoNoConectado"
+            android:id="@+id/tConectadoWifi"
+            android:layout_weight="1"
+            style="@style/estilo_no_conectado" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutEstadoConexion"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textoNoConectado"
+            android:id="@+id/tEstadoConexion"
+            android:layout_weight="1"
+            style="@style/estilo_normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBotones"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textoBoton"
+            android:id="@+id/bComprobar"
+            style="@style/estilo_normal" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Acceso a internet</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="textoEtiquetaGPRS">Conexión GPRS: </string>
+    <string name="textoEtiquetaWifi">Conexión Wifi: </string>
+    <string name="textoConectado">Conectado</string>
+    <string name="textoConectadoGPRS">Conectado por GPRS</string>
+    <string name="textoConectadoWifi">Conectado por Wifi</string>
+    <string name="textoConectadoGPRSWifi">Conectado por GPRS y Wifi</string>
+    <string name="textoNoConectado">No conectado</string>
+    <string name="textoBoton">Comprobar conexión</string>
+
+</resources>
